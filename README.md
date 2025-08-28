@@ -67,4 +67,22 @@ In software projects, requirements are broadly categorized into **Functional** a
 | **Type**                 | **Definition**                                                                 | **Examples for Booking Management System**                                                                 |
 |---------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | **Functional Requirements** | Describe what the system should do, the features and behaviors it must support. | 1. Users can create accounts and log in.<br>2. Customers can search for available properties by date and location.<br>3. Booking a property and receiving confirmation.<br>4. Hosts can list, edit, and delete their properties. |
-| **Non-functional Requirements** | Describe how the system performs its functions, focusing on quality attributes. | 1. The system should handle at least 500 concurrent users.<br>2. Page load time must be under 2 seconds.<br>3. Data must be encrypted to ensure security.<br>4. The system should be available 99.9% of the time. |    
+| **Non-functional Requirements** | Describe how the system performs its functions, focusing on quality attributes. | 1. The system should handle at least 500 concurrent users.<br>2. Page load time must be under 2 seconds.<br>3. Data must be encrypted to ensure security.<br>4. The system should be available 99.9% of the time. |
+
+
+## Use Case Diagrams
+
+Use Case Diagrams are a visual way of capturing the interactions between **actors** (such as users or external systems) and the **system** being developed.  
+
+### Benefits of Use Case Diagrams
+- Provide a clear, high-level view of system functionality.  
+- Help identify all possible interactions between users and the system.  
+- Useful for communication between stakeholders and developers.  
+
+### Booking Management System – Use Case Diagram
+The diagram below shows the main actors and their interactions with the system:  
+
+- **Actors**: Customer, Host, Admin  
+- **Use Cases**: Search properties, Book property, Manage listings, Process payments, Manage users  
+
+![Booking System Use Case](alx-booking-uc.png)
