@@ -57,4 +57,14 @@ Requirement Analysis involves several structured activities that ensure project 
   Examining the requirements for feasibility, consistency, and completeness, often representing them visually through use cases, flowcharts, or diagrams.
 
 - **Requirement Validation**  
-  Confirming with stakeholders that the documented requirements accurately reflect their needs and expectations.   
+  Confirming with stakeholders that the documented requirements accurately reflect their needs and expectations. 
+
+
+## Types of Requirements
+
+In software projects, requirements are broadly categorized into **Functional** and **Non-functional**.  
+
+| **Type**                 | **Definition**                                                                 | **Examples for Booking Management System**                                                                 |
+|---------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Functional Requirements** | Describe what the system should do, the features and behaviors it must support. | 1. Users can create accounts and log in.<br>2. Customers can search for available properties by date and location.<br>3. Booking a property and receiving confirmation.<br>4. Hosts can list, edit, and delete their properties. |
+| **Non-functional Requirements** | Describe how the system performs its functions, focusing on quality attributes. | 1. The system should handle at least 500 concurrent users.<br>2. Page load time must be under 2 seconds.<br>3. Data must be encrypted to ensure security.<br>4. The system should be available 99.9% of the time. |    
